@@ -1,4 +1,6 @@
-# Frontend Mentor - Huddle landing page with alternating feature blocks
+# Reto Frontend Mentor - Huddle landing page with alternating feature blocks
+
+Link al proyecto
 
 ![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)
 
