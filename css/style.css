@@ -1,9 +1,21 @@
 body{
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
 }
+.container-header-hero{
+    background-image: url('../images/bg-hero-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: hsl(193, 100%, 96%,0.5);
+}
+
 .header{
-    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+.header-btn{
+    background-color: hsl(0deg 0% 100%);
 }
 a{
     text-decoration: none;
@@ -28,15 +40,19 @@ p,li,a{
  font-weight: 400;
 }
 .hero{
-    background-image: url('../images/bg-hero-desktop.svg');
+    padding: 60px;
     display: flex;
-    flex-direction: row;
 }
 .hero-description{
-    width: 60%;
+    width: 40%;
+}
+.hero-description-btn, .advantages-start-btn{
+    background-color: hsl(322, 100%, 66%);
+    color: #f0f0f0;
+    /* margin-top: 200px; */
 }
 .hero-image{
-    width:800px;
+    width:700px;
 }
 .hero-image img{
     width: 100%;
