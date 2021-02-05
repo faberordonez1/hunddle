@@ -6,12 +6,13 @@ body{
     background-image: url('../images/bg-hero-desktop.svg');
     background-repeat: no-repeat;
     background-position: top;
-    background-color: hsl(193, 100%, 96%,0.5);
+    background-color: hsl(193, 100%, 96%,1);
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 70px;
 }
 .header-btn{
@@ -30,14 +31,19 @@ a{
 h1,h2,h3{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
+    color:#18333c;
 }
 h1{
-    font-size: 40px;
+    font-size: 30px;
 }
 p,li,a{
  font-family: 'Poppins', sans-serif;
  font-size: 18px;
  font-weight: 400;
+ color: #aaafb3;
+}
+h3{
+    font-size: 35px;
 }
 .hero{
     padding: 60px;
@@ -57,4 +63,18 @@ p,li,a{
 .hero-image img{
     width: 100%;
 }
-
+.advantages article{
+  border: 2px #f0f0f0 solid;
+  border-radius: 30px;
+  box-shadow: 2px 2px 8px 5px #f0f0f0;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+  padding: 40px;
+}
+.advantages article div{
+    padding: 60px;
+}
+.advantages article img{
+  width: 100%;  
+}
