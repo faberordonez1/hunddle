@@ -25,7 +25,7 @@ a{
 .btn{
     box-shadow: 2px 2px 8px 5px #f0f0f0;
     border-radius: 60px;
-    padding: 10px 60px;
+    padding: 16px 60px;
 }
 
 h1,h2,h3{
@@ -77,4 +77,20 @@ h3{
 }
 .advantages article img{
   width: 100%;  
+}
+article.advantages-start {
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    z-index: 0;
+}
+.footer{
+    background-color: #00252e;
+    color: white;
+}
+.footer p,li{
+    color: white;
 }
