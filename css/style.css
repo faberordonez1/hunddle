@@ -91,7 +91,18 @@ article.advantages-start {
 .footer{
     background-color: #00252e;
     color: white;
+    padding: 150px 60px 60px 60px;
 }
 .footer p,li{
     color: white;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-container-grid-one{
+    width: 500px;
+}
+.footer-container-grid-one-wrapperlogo-logo{
+    filter:grayscale(50%);
 }
