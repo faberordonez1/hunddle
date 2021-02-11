@@ -112,7 +112,39 @@ article.advantages-start {
 .footer-container-grid-one-wrapperlogo-logo{
     filter:grayscale(50%);
 }
-
+.footer-grid-one-location::before{
+    display: inline-block;
+    position: absolute;
+    content: ' ';
+    width: 18px;
+    height: 24px;
+    left: 309px;
+    background-image: url(../images/icon-location.svg);
+    background-size: 18px;
+    background-repeat: no-repeat;
+}
+.footer-grid-one-phone::before{
+    display: inline-block;
+    position: absolute;
+    content: ' ';
+    width: 18px;
+    height: 24px;
+    left: 309px;
+    background-image: url(../images/icon-phone.svg);
+    background-size: 18px;
+    background-repeat: no-repeat;
+}
+.footer-grid-one-email::before{
+    display: inline-block;
+    position: absolute;
+    content: ' ';
+    width: 18px;
+    height: 24px;
+    left: 309px;
+    background-image: url(../images/icon-email.svg);
+    background-size: 18px;
+    background-repeat: no-repeat;
+}
 
 
 .container{
