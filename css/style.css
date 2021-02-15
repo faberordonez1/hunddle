@@ -1,6 +1,7 @@
 body{
     margin: 0 auto;
     border: 1px blue solid;
+    min-width: 1500px;
 }
 .container-header-hero{
     background-image: url('../images/bg-hero-desktop.svg');
@@ -107,49 +108,66 @@ article.advantages-start {
     justify-content: space-around;
 }
 .footer-container-grid-one{
-    width: 500px;
+    width: 345px;
+}
+.footer-container-grid-one-wrapperlogo{
+    margin-left: 0px;
 }
 .footer-container-grid-one-wrapperlogo-logo{
     filter:grayscale(50%);
 }
-.footer-grid-one-location::before{
+.footer-container-grid-one p::before{
     display: inline-block;
-    position: absolute;
+    position: relative;
     content: ' ';
     width: 18px;
     height: 24px;
-    left: 309px;
-    background-image: url(../images/icon-location.svg);
     background-size: 18px;
     background-repeat: no-repeat;
+    padding-left: 15px;
+    top: 9px;
+}
+.footer-grid-one-location::before{
+    background-image: url(../images/icon-location.svg);
 }
 .footer-grid-one-phone::before{
-    display: inline-block;
-    position: absolute;
-    content: ' ';
-    width: 18px;
-    height: 24px;
-    left: 309px;
     background-image: url(../images/icon-phone.svg);
-    background-size: 18px;
-    background-repeat: no-repeat;
 }
 .footer-grid-one-email::before{
-    display: inline-block;
-    position: absolute;
-    content: ' ';
-    width: 18px;
-    height: 24px;
-    left: 309px;
     background-image: url(../images/icon-email.svg);
-    background-size: 18px;
-    background-repeat: no-repeat;
 }
-
+.footer-container ul{
+    list-style: none;
+    line-height: 58px;
+}
+.footer-container-icons i:before{
+    font-size: xx-large;
+    border: 2px white solid;
+    border-radius: 100px;
+    padding: 10px 10px;
+    margin: 7px;
+}
+.footer-container-icons i.fa-facebook-f:before{
+    padding: 10px 16px;
+}
+.footer-container-grid-two,.footer-container-grid-three{
+    padding-top: 43px;
+}
+.footer-container-icons{
+    padding-top: 80px;
+}
+.footer-container-icons figure{
+    margin: 0;
+}
+.footer-copyrigth{
+    display:flex;
+    justify-content: space-between;
+    padding:0 65px;
+}
 
 .container{
     width: 1440px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: inherit;
     display: inherit;
     align-items: inherit;
