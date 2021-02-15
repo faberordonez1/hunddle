@@ -1,6 +1,6 @@
 body{
     margin: 0 auto;
-    border: 1px blue solid;
+    /* border: 1px blue solid; */
     min-width: 1500px;
 }
 .container-header-hero{
@@ -140,14 +140,15 @@ article.advantages-start {
     list-style: none;
     line-height: 58px;
 }
-.footer-container-icons i:before{
+.footer-container-icons a:before{
     font-size: xx-large;
-    border: 2px white solid;
+    border: 3px white solid;
     border-radius: 100px;
     padding: 10px 10px;
     margin: 7px;
+    color: white;
 }
-.footer-container-icons i.fa-facebook-f:before{
+.footer-container-icons a.fa-facebook-f:before{
     padding: 10px 16px;
 }
 .footer-container-grid-two,.footer-container-grid-three{
@@ -163,6 +164,9 @@ article.advantages-start {
     display:flex;
     justify-content: space-between;
     padding:0 65px;
+}
+.footer-copyrigth a{
+    color: hsl(322, 100%, 66%);
 }
 
 .container{
