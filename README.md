@@ -1,4 +1,4 @@
-# Reto Frontend Mentor - Huddle landing page with alternating feature blocks
+# Huddle landing page with alternating feature blocks
 
 Link al proyecto 👉🏼https://faberordonez1.github.io/hunddle/ 😎
 
