@@ -1,7 +1,15 @@
+*{
+    /* margin:0; */
+    padding: 0;
+}
 body{
     margin: 0 auto;
     /* border: 1px blue solid; */
     min-width: 1500px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #aaafb3;
 }
 .container-header-hero{
     background-image: url('../images/bg-hero-desktop.svg');
@@ -16,7 +24,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 70px;
+    padding: 3.9em;
 }
 .header-btn{
     background-color: hsl(0deg 0% 100%);
@@ -31,7 +39,7 @@ a{
 .btn{
     box-shadow: 2px 2px 8px 5px #f0f0f0;
     border-radius: 60px;
-    padding: 16px 60px;
+    padding: .9em 3.3em;
 }
 
 h1,h2,h3{
@@ -40,19 +48,14 @@ h1,h2,h3{
     color:#18333c;
 }
 h1{
-    font-size: 30px;
+    font-size: 1.7em;
 }
-p,li,a{
- font-family: 'Poppins', sans-serif;
- font-size: 18px;
- font-weight: 400;
- color: #aaafb3;
-}
+
 h3{
-    font-size: 35px;
+    font-size: 1.9em;
 }
 .hero{
-    padding: 60px;
+    padding: 3.3em;
     display: flex;
 }
 .hero-description{
@@ -69,7 +72,7 @@ h3{
     /* margin-top: 200px; */
 }
 .hero-image{
-    width:700px;
+    width:38.9em;
 }
 .hero-image img{
     width: 100%;
@@ -83,8 +86,8 @@ h3{
   box-shadow: 2px 2px 8px 5px #f0f0f0;
   display: flex;
   justify-content: space-around;
-  margin: 50px;
-  padding: 40px;
+  margin: 2.8em;
+  padding: 2.2em;
 }
 .advantages article div{
     padding: 60px;
