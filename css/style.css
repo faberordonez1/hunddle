@@ -1,3 +1,7 @@
+:root{
+    --rosado:hsl(322, 100%, 66%);
+    --rosado-oscuro:hsl(322, 100%, 60%);
+}
 *{
     /* margin:0; */
     padding: 0;
@@ -62,12 +66,12 @@ h3{
     width: 40%;
 }
 .hero-description-btn, .advantages-start-btn{
-    background-color: hsl(322, 100%, 66%);
+    background-color: var(--rosado);
     color: #f0f0f0;
     /* margin-top: 200px; */
 }
 .hero-description-btn:hover, .advantages-start-btn:hover{
-    background-color: hsl(322, 100%, 60%);
+    background-color:var(--rosado-oscuro);
     color: #ffffff;
     /* margin-top: 200px; */
 }
