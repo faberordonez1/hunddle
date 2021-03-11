@@ -196,6 +196,7 @@ article.advantages-start {
 
 @media (max-width: 1440px) {
     .container {
-      width:100vh;
+      /* width:100vw; */
+      margin: 0;
     }
   }
