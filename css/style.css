@@ -85,7 +85,6 @@ h3{
 .hero-image img{
     width: 100%;
 }
-
 .advantages article{
   display: flex;
   justify-content: space-around;
@@ -103,12 +102,13 @@ h3{
     justify-content: space-evenly;
 }
 .advantages article img{
-  width: 100%;  
+  width: 80%;  
 }
 article.advantages-start {
     flex-direction: column;
-    align-items: center;
-    width: 700px;
+    width: 39em;
+    max-width:85%;
+    height:9em;
     margin: 0 auto;
     position: relative;
     top: 5.6em;
@@ -235,14 +235,29 @@ article.advantages-start {
     }
     .advantages article{
         flex-wrap: wrap;
-        /* flex-direction: column-reverse; */
+        flex-direction: column-reverse;
+        padding:1em;
+        margin: 3.5em 1.5em;
     }
     .advantages-description, .advantages figure{
-        width:100%;
         text-align: center;
     }
+    .advantages article img{
+        width: 60%;  
+      }
     .advantages-description h3{
         margin-bottom: 1em;
+    }
+    article.advantages-flowing{
+        flex-direction: initial;
+    }
+    article.advantages-start {
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .advantages-start h3{
+        font-size: 1.4em;
     }
 }
 @media screen and (max-width: 480px) {
@@ -251,7 +266,7 @@ article.advantages-start {
     }
 }
 @media screen and (max-width: 320px) {
-    .header, .hero{
+    .header, .hero, .advantages{
         font-size: 9px;
     }
 }
