@@ -239,7 +239,11 @@ article.advantages-start {
         padding:1em;
         margin: 3.5em 1.5em;
     }
-    .advantages-description, .advantages figure{
+    .advantages-description{
+        text-align: center;
+        padding: 2em;
+    } 
+    .advantages figure{
         text-align: center;
     }
     .advantages article img{
@@ -261,7 +265,7 @@ article.advantages-start {
     }
 }
 @media screen and (max-width: 480px) {
-    .header, .hero{
+    .header, .hero, .advantages{
         font-size: 12px;
     }
 }
