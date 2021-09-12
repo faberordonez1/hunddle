@@ -204,24 +204,25 @@ article.advantages-start {
 /*Responsive*/
 
 @media screen and (max-width: 1024px) {
-    .hero{
-        font-size:15px;
-    }
-    .advantages{
+    .container /*.header, .hero, .advantages*/{
         font-size: 14px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .header{
-        font-size:13px;
-        padding:1.5em;
-        
+        padding:0;
+   }
+    .container{
+        margin:1.5em auto;
+        width:95%;
+    }
+    .hero{
+        padding: 1.8em;
     }
     .hero .container{
         flex-wrap: wrap;
         text-align: center;
- 
     }
     .hero-description,.hero-image{
         width: 100%;
@@ -236,8 +237,8 @@ article.advantages-start {
     .advantages article{
         flex-wrap: wrap;
         flex-direction: column-reverse;
-        padding:1em;
-        margin: 3.5em 1.5em;
+        padding:1em 0;
+        margin: 3.5em 0;
     }
     .advantages-description{
         text-align: center;
@@ -265,12 +266,12 @@ article.advantages-start {
     }
 }
 @media screen and (max-width: 480px) {
-    .header, .hero, .advantages{
+    .container{
         font-size: 12px;
     }
 }
 @media screen and (max-width: 320px) {
-    .header, .hero, .advantages{
+    .container{
         font-size: 9px;
     }
 }
