@@ -124,7 +124,7 @@ article.advantages-start {
     justify-content: space-around;
     padding: 9em 2.8em 2.8em;
 }
-.footer-container div{
+.footer-container>div{
     flex-basis: 33%;
     /* width:33%; */
 }
@@ -175,11 +175,10 @@ article.advantages-start {
     padding: 0.6em 0.85em;
 }
 
-
 .footer-copyrigth{
     display:flex;
     justify-content: space-between;
-    padding:0 8.1em;
+    padding:0 2.8em 2.8em;
 }
 .footer-copyrigth a{
     color: hsl(322, 100%, 66%);
@@ -199,8 +198,11 @@ article.advantages-start {
 /*Responsive*/
 
 @media screen and (max-width: 1024px) {
-    .container /*.header, .hero, .advantages*/{
+    .container{
         font-size: 14px;
+    }
+    .footer-copyrigth{
+        font-size:.9em;
     }
 }
 
@@ -260,6 +262,15 @@ article.advantages-start {
         font-size: 1.4em;
     }
     .footer-container{
+        display: block;
+    }
+    .footer-container-grid-two{
+        margin: 3em 0;
+    }
+    .footer-container-grid-three{
+        text-align: center;
+    }
+    .footer-copyrigth{
         display: block;
     }
 }
