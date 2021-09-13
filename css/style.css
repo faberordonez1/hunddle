@@ -118,24 +118,21 @@ article.advantages-start {
 .footer{
     background-color: #00252e;
     color: white;
-    padding: 8.3em 3.3em 3.3em 3.3em;
-    margin: inherit;
-}
-.footer p,li{
-    color: white;
 }
 .footer-container{
     display: flex;
     justify-content: space-around;
+    padding: 9em 2.8em 2.8em;
 }
-.footer-container-grid-one{
-    width: 345px;
+.footer-container div{
+    flex-basis: 33%;
+    /* width:33%; */
 }
-.footer-container-grid-one-wrapperlogo{
-    margin-left: 0;
+.footer-container-grid-one-wrapper-logo{
+    width:13.3em;
 }
-.footer-container-grid-one-wrapperlogo-logo{
-    filter:grayscale(50%);
+.footer-container-grid-one p{
+    padding-top: 1em;
 }
 .footer-container-grid-one p::before{
     display: inline-block;
@@ -157,30 +154,28 @@ article.advantages-start {
 .footer-grid-one-email::before{
     background-image: url(../images/icon-email.svg);
 }
+.footer-container-grid-two{
+    display: inherit;
+    justify-content: space-evenly;
+}
 .footer-container ul{
     list-style: none;
     line-height: 3.2em;
 }
-.footer-container-icons a:before{
-    font-size: xx-large;
+.footer-container-grid-three a:before{
+    /* font-size: xx-large; */
+    font-size: 1.5em;;
     border: 3px white solid;
     border-radius: 100px;
     padding: 0.6em 0.6em;
     margin: 0.4em;
     color: white;
 }
-.footer-container-icons a.fa-facebook-f:before{
+.footer-container-grid-three a.fa-facebook-f:before{
     padding: 0.6em 0.85em;
 }
-.footer-container-grid-two,.footer-container-grid-three{
-    padding-top: 2.39em;
-}
-.footer-container-icons{
-    padding-top: 4.4em;
-}
-.footer-container-icons figure{
-    margin: 0;
-}
+
+
 .footer-copyrigth{
     display:flex;
     justify-content: space-between;
@@ -263,6 +258,9 @@ article.advantages-start {
     }
     .advantages-start h3{
         font-size: 1.4em;
+    }
+    .footer-container{
+        display: block;
     }
 }
 @media screen and (max-width: 480px) {
