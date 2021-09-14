@@ -208,10 +208,9 @@ article.advantages-start {
 
 @media screen and (max-width: 767px) {
     .header{
-        padding:0;
+        padding:1.5em 0;
    }
     .container{
-        margin:1.5em auto;
         width:95%;
     }
     .hero{
@@ -272,8 +271,10 @@ article.advantages-start {
     }
     .footer-copyrigth{
         display: block;
+        text-align: center;
     }
 }
+    
 @media screen and (max-width: 480px) {
     .container{
         font-size: 12px;
