@@ -208,7 +208,7 @@ article.advantages-start {
 
 @media screen and (max-width: 767px) {
     .header{
-        padding:1.5em 0;
+        padding:1.4em;
    }
     .container{
         width:95%;
