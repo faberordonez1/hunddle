@@ -165,16 +165,19 @@ article.advantages-start {
 .footer-container-grid-three a:before{
     /* font-size: xx-large; */
     font-size: 1.5em;;
-    border: 3px white solid;
+    border: 2px white solid;
     border-radius: 100px;
     padding: 0.6em 0.6em;
     margin: 0.4em;
     color: white;
 }
+.footer-container-grid-three a:hover:before{
+    color: var(--rosado);
+    border:2px solid var(--rosado);
+}
 .footer-container-grid-three a.fa-facebook-f:before{
     padding: 0.6em 0.85em;
 }
-
 .footer-copyrigth{
     display:flex;
     justify-content: space-between;
